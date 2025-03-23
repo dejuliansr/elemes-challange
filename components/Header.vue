@@ -1,5 +1,5 @@
 <template>
-  <header class="container mx-auto py-4 px-4 lg:px-0 flex justify-between items-center">
+  <header class="container mx-auto py-4 px-4 lg:px-10 xl:px-20 flex justify-between items-center">
     <img src="/icons/logo.png" alt="Logo" class="h-8 lg:h-14 w-auto" />
 
      <!-- Desktop Navigation -->
@@ -26,7 +26,7 @@
   </header>
   
   <!-- Bottom Navigation (Mobile Only) -->
-  <nav class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-300 flex justify-between items-center py-2 px-4 lg:hidden z-50">
+  <nav class="fixed bottom-0 left-0 right-0 w-full bg-white border-t border-gray-300 container mx-auto py-4 px-4 flex justify-between items-center lg:hidden z-50">
     <NuxtLink to="#" class="flex flex-col items-center text-gray-500">
       <img src="/icons/menu-burger.svg" class="w-10 h-10" alt="Home" />
       <span class="text-xs">Home</span>
