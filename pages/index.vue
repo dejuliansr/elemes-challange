@@ -91,7 +91,7 @@
         :bgColor="item.bgColor"
       />
     </div>
-    <div class="flex justify-center mt-10 mb-24">
+    <div class="flex justify-center mt-10">
       <button class="bg-green text-white px-6 py-2 rounded-full">ALL Receipt</button>
     </div>
   </section>
